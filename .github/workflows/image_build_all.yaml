@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         DEVICE: [clockworkpi-a06]
-        EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
+        EDITION: [kde-plasma,minimal]
         BRANCH: [stable]
     steps:
       -
